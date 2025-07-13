@@ -94,7 +94,7 @@
                 </div>
                 <div class="mt-8 sm:mt-16">
                     <div class="relative mx-auto max-w-[800px] w-auto">
-                        <img src="./images/meta/ng-1.png" class="w-full scale-[1.8]" alt="product" />
+                        <img src="./images/meta/ng-1.png" class="w-full scale-[1.3] md:scale-[1.5]" alt="product" />
                     </div>
                 </div>
             </section>
@@ -166,4 +166,36 @@
         </footer>
     </div>
 </body>
+
+<script>
+    window.addEventListener('load', () => {
+        const duration = 10000; // total scroll duration in ms
+        const delay = 1000; // 1-second delay
+        const totalHeight = document.body.scrollHeight - window.innerHeight;
+
+        // Easing function for smooth effect
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        }
+
+        setTimeout(() => {
+            const start = performance.now();
+
+            function scrollStep(timestamp) {
+                const elapsed = timestamp - start;
+                const progress = Math.min(elapsed / duration, 1); // 0 to 1
+                const easedProgress = easeInOutQuad(progress);
+
+                window.scrollTo(0, easedProgress * totalHeight);
+
+                if (progress < 1) {
+                    requestAnimationFrame(scrollStep);
+                }
+            }
+
+            requestAnimationFrame(scrollStep);
+        }, delay);
+    });
+</script>
+
 </html>
