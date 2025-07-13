@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Let&#039;s Aika</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            900: '#111827',
+                            500: '#6B7280'
+                        },
+                        'aika': {
+                            'yellow': '#FFD700',
+                            'blue': '#1C64F2',
+                            'green': '#10B981',
+                            'pink': '#EC4899',
+                            'purple': '#8B5CF6',
+                            'red': '#EF4444',
+                            'teal': '#14B8A6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="relative">
+
+    <div class="flex flex-col min-h-screen h-full mx-auto overflow-hidden relative">
+        <header class="relative">
+            <nav class="border-gray-200 px-4 lg:px-6 py-4 relative z-50">
+                <div class="grid grid-cols-3 items-center mx-auto max-w-screen-xl">
+                    <div class="flex justify-start items-center col-span-1">
+                        <a href="#"
+                            class="text-primary-900 bg-white border border-gray-200 hover:bg-aika-yellow focus:ring-4 focus:ring-aika-teal-20 font-medium rounded-full text-sm md:text-base px-4 md:px-6 py-2 focus:outline-none md:hidden">Login</a>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="inline-block group/logo">
+                            <img src="./images/logo/logo.png" class="h-10 md:h-16 group-hover/logo:hidden" alt="aika" />
+                            <img src="./images/logo/logo-color.png"
+                                class="h-10 md:h-16 hidden group-hover/logo:inline-block" alt="aika" />
+                        </a>
+                    </div>
+                    <div class="flex justify-end items-center col-span-1">
+                        <a href="#"
+                            class="text-primary-900 bg-white border border-gray-200 hover:bg-aika-yellow focus:ring-4 focus:ring-aika-teal-20 font-medium rounded-full text-sm md:text-base px-4 md:px-6 py-2 focus:outline-none hidden md:flex">Login</a>
+                        <a href="#"
+                            class="text-white bg-primary-900 hover:bg-aika-blue focus:ring-4 focus:ring-aika-teal/20 font-medium rounded-full text-sm md:text-base px-4 md:px-6 py-2 ml-2 focus:outline-none">Sign
+                            up</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="flex-grow">
+            <div
+                class="absolute top-0 bottom-0 mx-auto left-1/2 transform -translate-x-1/2 z-0 w-full md:w-[1200px] lg:w-[1600px] max-w-screen">
+                <img src="/images/meta/home-shapes-full.svg" class="hidden lg:block w-full h-full object-cover"
+                    alt="Shapes" />
+                <img src="/images/meta/home-shapes-tablet.svg" class="hidden md:block w-full h-full object-cover"
+                    alt="Shapes" />
+                <img src="/images/meta/home-shapes-mobile.svg" class="md:hidden w-full h-full object-cover"
+                    alt="Shapes" />
+            </div>
+            <section class="relative">
+                <div class="max-w-screen-xl px-6 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+                    <div class="text-center">
+                        <div class="max-w-xl mx-auto">
+                            <h1
+                                class="text-5xl font-extrabold leading-none tracking-tight text-primary-900 md:text-7xl mb-6">
+                                Don’t make connecting awkward</h1>
+                            <p
+                                class="mt-4 text-lg md:text-xl font-normal text-primary-500 md:max-w-3xl md:mx-auto mb-6 md:mb-10">
+                                No more fumbling for business cards or searching for lost contacts after an event. Aika
+                                revolutionizes the way you connect, making networking seamless and meaningful.
+                            </p>
+                            <a href="#"
+                                class="text-white bg-primary-900 hover:bg-aika-green focus:ring-4 focus:outline-none focus:ring-aika-teal/30 font-semibold rounded-full text-xl px-12 py-4 text-center inline-block transition">Sign
+                                up free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 sm:mt-16">
+                    <div class="relative mx-auto max-w-[800px] w-auto">
+                        <img src="./images/meta/ng-1.png" class="w-full scale-[1.8]" alt="product" />
+                    </div>
+                </div>
+            </section>
+            <section class="relative">
+                <div class="py-8 px-6 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6 lg:py-24">
+                    <h2
+                        class="mb-4 text-4xl max-w-[200px] mx-auto md:max-w-full tracking-tight font-extrabold text-primary-900">
+                        Here’s how it works</h2>
+                    <p class="text-primary-500 font-normal text-lg md:text-xl">Connect smarter with aika.</p>
+                    <div
+                        class="my-8 lg:my-12 gap-8 flex flex-col md:flex-row flex-wrap md:gap-12 justify-center content-center justify-items-center">
+                        <div class="max-w-[310px]">
+                            <img src="/images/meta/feature-1.svg" class="mx-auto mb-4 w-12 h-12" alt="Step 1" />
+                            <h3 class="mb-2 text-2xl font-bold">Scan the QR code</h3>
+                            <p class="mb-4 text-primary-500 text-lg">When it’s time to swap info, have your new contact
+                                scan your QR code with their phone camera.</p>
+                        </div>
+                        <div class="max-w-[310px]">
+                            <img src="/images/meta/feature-2.svg" class="mx-auto mb-4 w-12 h-12" alt="Step 2" />
+                            <h3 class="mb-2 text-2xl font-bold">Send a message</h3>
+                            <p class="mb-4 text-primary-500 text-lg">Your QR code is linked to a custom message you’ve
+                                created. So all they have to do is hit <i>Send</i>.</p>
+                        </div>
+                        <div class="max-w-[310px]">
+                            <img src="/images/meta/feature-3.svg" class="mx-auto mb-4 w-12 h-12" alt="Step 3" />
+                            <h3 class="mb-2 text-2xl font-bold">Follow-up from your inbox</h3>
+                            <p class="mb-4 text-primary-500 text-lg">With aika's smart inbox, you can easily manage and
+                                respond to all your new connections, making follow-ups effortless.</p>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class="text-white bg-primary-900 hover:bg-aika-pink focus:ring-4 focus:outline-none focus:ring-aika-teal/30 font-semibold rounded-full text-xl px-12 py-4 text-center transition inline-block">Get
+                        Started
+                        with aika</a>
+                </div>
+            </section>
+        </div>
+
+        <footer class="p-4 md:p-8 lg:p-10 relative">
+            <div class="mx-auto max-w-screen-xl text-center">
+                <div class="flex items-center justify-center">
+                    <a href="#" class="inline-block group/logo">
+                        <img src="/images/logo/logo.png" class="h-10 md:h-16 group-hover/logo:hidden" alt="aika" />
+                        <img src="/images/logo/logo-color.png" class="h-10 md:h-16 hidden group-hover/logo:inline-block"
+                            alt="aika" />
+                    </a>
+                </div>
+                <p class="my-4 md:my-6 text-gray-500">Get connected with aika.</p>
+                <ul class="flex flex-wrap justify-center items-center mb-4 md:mb-6 text-gray-900">
+                    <li>
+                        <a href="#" target="_blank" class="mr-4 hover:text-aika-yellow md:mr-6 transition">About</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="mr-4 hover:text-aika-green md:mr-6 transition">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="mr-4 hover:text-aika-purple md:mr-6 transition">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="mr-4 hover:text-aika-red md:mr-6 transition">Contact</a>
+                    </li>
+                </ul>
+                <span class="text-sm text-gray-500 sm:text-center ">&copy; 2025 <a href="#"
+                        class="hover:text-aika-teal transition">Aika</a> by <a
+                        href="https://code-abdulrehman.vercel.app/" class="hover:text-aika-pink transition"
+                        target="_blank">Abdulrehman</a></span>
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
