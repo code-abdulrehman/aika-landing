@@ -133,6 +133,91 @@
             </section>
         </div>
 
+        <!-- FAQ Section -->
+        <section class="relative bg-transparent">
+            <div class="py-8 px-6 sm:py-16 lg:px-6 lg:py-24">
+                <div class="max-w-screen-md mb-8 lg:mb-16 mx-auto text-center">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary-900">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-primary-500 font-normal text-lg md:text-xl">
+                        Everything you need to know about Aika
+                    </p>
+                </div>
+                <div class="max-w-screen-md mx-auto">
+                    <div class="space-y-4">
+                        <!-- FAQ Item 1 -->
+                        <div class="rounded-lg shadow-sm border border-gray-200">
+                            <button
+                                class="faq-toggle flex justify-between items-center w-full px-6 py-4 text-left text-lg font-semibold text-aika-pink focus:outline-none rounded-lg transition-colors backdrop-blur-sm"
+                                type="button" data-target="faq-1">
+                                <span>How does Aika work?</span>
+                                <svg class="faq-icon w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </button>
+                            <div id="faq-1" class="faq-content px-6 py-4 bg-aika-pink/10 backdrop-blur-sm rounded-b-lg">
+                                <p>
+                                    Aika simplifies networking by allowing you to share your contact information through a personalized QR code. When someone scans your code, they can instantly send you a message, and you'll receive it in your smart inbox for easy follow-up.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="rounded-lg shadow-sm border border-gray-200">
+                            <button
+                                class="faq-toggle flex justify-between items-center w-full px-6 py-4 text-left text-lg font-semibold text-aika-teal focus:outline-none rounded-lg transition-colors backdrop-blur-sm"
+                                type="button" data-target="faq-2">
+                                <span>Is Aika free to use?</span>
+                                <svg class="faq-icon w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </button>
+                            <div id="faq-2" class="faq-content hidden px-6 py-4 bg-aika-teal/10 backdrop-blur-sm rounded-b-lg">
+                                <p>
+                                    Yes! Aika offers a free plan that includes basic networking features. You can create your QR code, receive messages, and manage your connections at no cost. We also offer premium plans with advanced features for power networkers.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="rounded-lg shadow-sm border border-gray-200">
+                            <button
+                                class="faq-toggle flex justify-between items-center w-full px-6 py-4 text-left text-lg font-semibold text-aika-purple focus:outline-none rounded-lg transition-colors backdrop-blur-sm"
+                                type="button" data-target="faq-3">
+                                <span>Can I customize my QR code and message?</span>
+                                <svg class="faq-icon w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </button>
+                            <div id="faq-3" class="faq-content hidden px-6 py-4 bg-aika-purple/10 backdrop-blur-sm rounded-b-lg">
+                                <p>
+                                    Absolutely! You can fully customize your QR code design and create personalized messages for different networking scenarios. Whether you're at a conference, meetup, or business event, you can tailor your approach to fit the occasion.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="rounded-lg shadow-sm border border-gray-200">
+                            <button
+                                class="faq-toggle flex justify-between items-center w-full px-6 py-4 text-left text-lg font-semibold text-aika-yellow focus:outline-none rounded-lg transition-colors backdrop-blur-sm"
+                                type="button" data-target="faq-4">
+                                <span>How secure is my information on Aika?</span>
+                                <svg class="faq-icon w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </button>
+                            <div id="faq-4" class="faq-content hidden px-6 py-4 bg-aika-yellow/10 backdrop-blur-sm rounded-b-lg">
+                                <p>
+                                    Your privacy and security are our top priorities. We use industry-standard encryption to protect your data, and you have full control over what information you share. Your QR code only contains the message you choose to include.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="p-4 md:p-8 lg:p-10 relative">
             <div class="mx-auto max-w-screen-xl text-center">
                 <div class="flex items-center justify-center">
@@ -167,34 +252,79 @@
     </div>
 </body>
 
+ <script>
+//     window.addEventListener('load', () => {
+//         const duration = 10000; // total scroll duration in ms
+//         const delay = 1000; // 1-second delay
+//         const totalHeight = document.body.scrollHeight - window.innerHeight;
+
+//         // Easing function for smooth effect
+//         function easeInOutQuad(t) {
+//             return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+//         }
+
+//         setTimeout(() => {
+//             const start = performance.now();
+
+//             function scrollStep(timestamp) {
+//                 const elapsed = timestamp - start;
+//                 const progress = Math.min(elapsed / duration, 1); // 0 to 1
+//                 const easedProgress = easeInOutQuad(progress);
+
+//                 window.scrollTo(0, easedProgress * totalHeight);
+
+//                 if (progress < 1) {
+//                     requestAnimationFrame(scrollStep);
+//                 }
+//             }
+
+//             requestAnimationFrame(scrollStep);
+//         }, delay);
+//     });
+ </script>
+
 <script>
-    window.addEventListener('load', () => {
-        const duration = 10000; // total scroll duration in ms
-        const delay = 1000; // 1-second delay
-        const totalHeight = document.body.scrollHeight - window.innerHeight;
-
-        // Easing function for smooth effect
-        function easeInOutQuad(t) {
-            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
-        }
-
-        setTimeout(() => {
-            const start = performance.now();
-
-            function scrollStep(timestamp) {
-                const elapsed = timestamp - start;
-                const progress = Math.min(elapsed / duration, 1); // 0 to 1
-                const easedProgress = easeInOutQuad(progress);
-
-                window.scrollTo(0, easedProgress * totalHeight);
-
-                if (progress < 1) {
-                    requestAnimationFrame(scrollStep);
+    // FAQ Accordion functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const faqToggles = document.querySelectorAll('.faq-toggle');
+        
+        // Set first FAQ as open by default
+        const firstFaqToggle = document.querySelector('.faq-toggle');
+        const firstFaqContent = document.getElementById('faq-1');
+        const firstFaqIcon = firstFaqToggle.querySelector('.faq-icon');
+        
+        // Set first FAQ as open
+        firstFaqContent.classList.remove('hidden');
+        firstFaqIcon.classList.add('rotate-45');
+        
+        faqToggles.forEach(function(toggle) {
+            toggle.addEventListener('click', function() {
+                const target = this.getAttribute('data-target');
+                const content = document.getElementById(target);
+                const icon = this.querySelector('.faq-icon');
+                
+                // Close all other FAQ items
+                faqToggles.forEach(function(otherToggle) {
+                    if (otherToggle !== toggle) {
+                        const otherTarget = otherToggle.getAttribute('data-target');
+                        const otherContent = document.getElementById(otherTarget);
+                        const otherIcon = otherToggle.querySelector('.faq-icon');
+                        
+                        otherContent.classList.add('hidden');
+                        otherIcon.classList.remove('rotate-45');
+                    }
+                });
+                
+                // Toggle current FAQ item
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.classList.add('rotate-45');
+                } else {
+                    content.classList.add('hidden');
+                    icon.classList.remove('rotate-45');
                 }
-            }
-
-            requestAnimationFrame(scrollStep);
-        }, delay);
+            });
+        });
     });
 </script>
 
