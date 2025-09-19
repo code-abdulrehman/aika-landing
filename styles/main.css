@@ -1,1 +1,95 @@
-LyogQ29sb3JzICovCjpyb290IHsKICAtLWNvbG9yLXByaW1hcnktOTAwOiAjMTExODI3OwogIC0tY29sb3ItcHJpbWFyeS01MDA6ICM2QjcyODA7CiAgLS1haWthLXllbGxvdzogI0ZGRDcwMDsKICAtLWFpa2EtYmx1ZTogIzFDNjRGMjsKICAtLWFpa2EtZ3JlZW46ICMxMEI5ODE7CiAgLS1haWthLXBpbms6ICNmN2FkYzg7CiAgLS1haWthLXB1cnBsZTogIzhCNUNGNjsKICAtLWFpa2EtcmVkOiAjRUY0NDQ0OwogIC0tYWlrYS10ZWFsOiAjMTRCOEE2Owp9Ci8qIEJ1dHRvbiBTdHlsZXMgKi8KLmJ0biB7CiAgZm9udC13ZWlnaHQ6IDYwMDsKICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgcGFkZGluZzogMC41cmVtIDFyZW07CiAgdHJhbnNpdGlvbjogYWxsIDAuM3MgZWFzZTsKICBvdXRsaW5lOiBub25lOwp9CgouYnRuLXByaW1hcnkgewogIGNvbG9yOiB3aGl0ZTsKICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5LTkwMCk7Cn0KCi5idG4tcHJpbWFyeTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tYWlrYS1ibHVlKTsKfQoKLmJ0bi1zZWNvbmRhcnkgewogIGNvbG9yOiB2YXIoLS1jb2xvci1wcmltYXJ5LTkwMCk7CiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7CiAgYm9yZGVyOiAxcHggc29saWQgI2U1ZTdlYjsKfQoKLmJ0bi1zZWNvbmRhcnk6aG92ZXIgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWFpa2EteWVsbG93KTsKfQoKLyogRm9jdXMgU3R5bGVzICovCi5yaW5nLWZvY3VzIHsKICBvdXRsaW5lOiAycHggc29saWQgdHJhbnNwYXJlbnQ7CiAgb3V0bGluZS1vZmZzZXQ6IDJweDsKICAtLXR3LXJpbmctaW5zZXQ6IHZhcigtLXR3LWVtcHR5LC8qISovIC8qISovKTsKICAtLXR3LXJpbmctb2Zmc2V0LXdpZHRoOiAwcHg7CiAgLS10dy1yaW5nLW9mZnNldC1jb2xvcjogI2ZmZjsKICAtLXR3LXJpbmctY29sb3I6IHZhcigtLWFpa2EtYmx1ZSk7CiAgLS10dy1yaW5nLW9mZnNldC1zaGFkb3c6IHZhcigtLXR3LXJpbmctaW5zZXQpIDAgMCAwIHZhcigtLXR3LXJpbmctb2Zmc2V0LXdpZHRoKSB2YXIoLS10dy1yaW5nLW9mZnNldC1jb2xvcik7CiAgLS10dy1yaW5nLXNoYWRvdzogdmFyKC0tdHctcmluZy1pbnNldCkgMCAwIDAgY2FsYygxcHggKyB2YXIoLS10dy1yaW5nLW9mZnNldC13aWR0aCkpIHZhcigtLXR3LXJpbmctY29sb3IpOwogIGJveC1zaGFkb3c6IHZhcigtLXR3LXJpbmctb2Zmc2V0LXNoYWRvdyksIHZhcigtLXR3LXJpbmctc2hhZG93KSwgdmFyKC0tdHctc2hhZG93KTsKICBib3JkZXItY29sb3I6IHZhcigtLWFpa2EtYmx1ZSk7Cn0KCi8qIExpbmsgU3R5bGVzICovCi5saW5rIHsKICB0cmFuc2l0aW9uOiBjb2xvciAwLjNzIGVhc2U7Cn0KCi5saW5rOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tYWlrYS15ZWxsb3cpOwp9CgoubGluay15ZWxsb3c6aG92ZXIgewogIGNvbG9yOiB2YXIoLS1haWthLXllbGxvdyk7Cn0KCi5saW5rLWdyZWVuOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tYWlrYS1ncmVlbik7Cn0KCi5saW5rLXB1cnBsZTpob3ZlciB7CiAgY29sb3I6IHZhcigtLWFpa2EtcHVycGxlKTsKfQoKLmxpbmstcmVkOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tYWlrYS1yZWQpOwp9CgoubGluay10ZWFsOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tYWlrYS10ZWFsKTsKfQoKLmxpbmstcGluazpob3ZlciB7CiAgY29sb3I6IHZhcigtLWFpa2EtcGluayk7Cn0KCi8qIExvZ28gSG92ZXIgRWZmZWN0ICovCi5sb2dvLWhvdmVyLWVmZmVjdDpob3ZlciAubG9nby1kZWZhdWx0IHsKICBkaXNwbGF5OiBub25lOwp9CgoubG9nby1ob3Zlci1lZmZlY3Q6aG92ZXIgLmxvZ28tY29sb3JlZCB7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwp9
+/* Colors */
+:root {
+  --color-primary-900: #111827;
+  --color-primary-500: #6B7280;
+  --aika-yellow: #FFD700;
+  --aika-blue: #1C64F2;
+  --aika-green: #10B981;
+  --aika-pink: #f7adc8;
+  --aika-purple: #8B5CF6;
+  --aika-red: #EF4444;
+  --aika-teal: #14B8A6;
+}
+/* Button Styles */
+.btn {
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--color-primary-900);
+}
+
+.btn-primary:hover {
+  background-color: var(--aika-blue);
+}
+
+.btn-secondary {
+  color: var(--color-primary-900);
+  background-color: white;
+  border: 1px solid #e5e7eb;
+}
+
+.btn-secondary:hover {
+  background-color: var(--aika-yellow);
+}
+
+/* Focus Styles */
+.ring-focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: var(--aika-blue);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  border-color: var(--aika-blue);
+}
+
+/* Link Styles */
+.link {
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(--aika-yellow);
+}
+
+.link-yellow:hover {
+  color: var(--aika-yellow);
+}
+
+.link-green:hover {
+  color: var(--aika-green);
+}
+
+.link-purple:hover {
+  color: var(--aika-purple);
+}
+
+.link-red:hover {
+  color: var(--aika-red);
+}
+
+.link-teal:hover {
+  color: var(--aika-teal);
+}
+
+.link-pink:hover {
+  color: var(--aika-pink);
+}
+
+/* Logo Hover Effect */
+.logo-hover-effect:hover .logo-default {
+  display: none;
+}
+
+.logo-hover-effect:hover .logo-colored {
+  display: inline-block;
+}
